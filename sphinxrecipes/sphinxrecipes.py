@@ -15,7 +15,6 @@ class RecipeNode(ObjectDescription):
     """A custom node that describes a recipe."""
   
     required_arguments = 1
-    optional_arguments = 0
 
     option_spec = {
         'contains': directives.unchanged_required
@@ -25,9 +24,6 @@ class RecipeNode(ObjectDescription):
         signode += addnodes.desc_name(text=sig)
         signode += addnodes.desc_type(text='Recipe')
         return sig
-
-    def get_index_text(self, stackname, name_cls):
-        return _('{} (Recipe)') % (name_cls[0])
 
     def add_target_and_index(self, name_cls, sig, signode):
         signode['ids'].append('recipe' + '-' + sig)
