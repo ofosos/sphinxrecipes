@@ -14,7 +14,7 @@ setup(
     version='0.1',
     url='http://github.com/ofosos/sphinxrecipes',
     download_url='http://pypi.python.org/pypi/sphinxrecipes',
-    license='GPLv3',
+    license='MIT',
     author='Mark Meyer',
     author_email='mark@ofosos.org',
     description='Recipe sample domain for Sphinx',

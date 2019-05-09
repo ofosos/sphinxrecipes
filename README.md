@@ -12,6 +12,6 @@ pip3 install .
 
 # Blurb
 
-Licensed under GNU AGPL v3.0.
+Licensed under the MIT license, see LICENSE.
 
 Copyright (c) 2018, Mark Meyer
